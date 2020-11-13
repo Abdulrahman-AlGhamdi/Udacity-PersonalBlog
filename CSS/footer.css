@@ -1,0 +1,7 @@
+.blog-footer{
+    margin-top: 20px;
+    display: grid;
+    grid-area: footer;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}

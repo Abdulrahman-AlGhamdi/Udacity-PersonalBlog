@@ -1,0 +1,28 @@
+.blog-post{
+    padding: 20px;
+    grid-area:post;
+    display: grid;
+    flex-direction: column;
+    border: 2px dotted black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.example{
+    margin: 0;
+}
+
+.date{
+    margin: 5;
+}
+
+.post-button{
+    background-color: black;
+    border-radius: 5px;
+}
+
+.button-link{
+    color: white;
+    text-decoration: none;
+}

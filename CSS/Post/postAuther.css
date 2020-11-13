@@ -1,0 +1,26 @@
+.blog-auther{
+    padding: 20px;
+    grid-area:auther;
+    display: grid;
+    grid-template-areas: "about" "archives" "elsewhere";
+    border: 2px dotted black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.about{
+    grid-area: about;
+}
+
+.archives{
+    display: flex;
+    grid-area: archives;
+    flex-direction: column;
+}
+
+.elsewhere{
+    display: flex;
+    grid-area: elsewhere;
+    flex-direction: column;
+}

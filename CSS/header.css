@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+.blog-header{
+    display: flex;
+    grid-area: header;
+    border: 2px dotted black;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link{
+    display: inline;
+    font-size: 1.2em;
+    margin-right: 10px;;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.nav-logo{
+    font-size: 1.5em;
+    font-family: 'Montserrat Alternates', sans-serif;
+}

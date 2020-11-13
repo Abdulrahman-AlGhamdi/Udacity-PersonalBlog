@@ -1,1 +1,1 @@
-# Udacity-PersonalBlog
+# PersonalBlog

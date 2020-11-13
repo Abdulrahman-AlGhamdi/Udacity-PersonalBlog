@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('../header.css');
+@import url('../Post/postBlog.css');
+@import url('../Post/postAuther.css');
+@import url('../footer.css');
+
+.container{
+    display:grid;
+    grid-template-areas: 
+    "header header header header header header"
+    "post post post post post auther"
+    "footer footer footer footer footer footer";
+}
+
+.link-color{
+    color: blue;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 701px) and (max-width: 1050px) {
+    .Container{
+        display:grid;
+        grid-template-areas: 
+        "header header header"
+        "post post auther"
+        "footer footer footer";
+    }
+        .blog-header{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+        }
+}
+
+@media screen and (max-width: 700px){
+    .Container{
+        display:grid;
+        grid-template-areas: 
+        "header"
+        "post"
+        "auther"
+        "footer";
+    }
+    .blog-header{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
